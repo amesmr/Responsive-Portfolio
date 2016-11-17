@@ -1,0 +1,180 @@
+body {
+    color: #777777;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+#headerrow {
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    padding-left: 50px;
+    margin: 0;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+#quickLinks {
+    width: 30%;
+    float: right;
+    padding-right: 18%;
+    text-align: center;
+    color: #777777;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 55px;
+    padding-top: 25px;
+    line-height: 35px;
+}
+#myname {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: 24px;
+    line-height: 90px;
+    float: left;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+#mainContentBox {
+    width: 50%;
+    padding: 0 25px 0px 25px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+#connect {
+    align-content: center;
+    width: 15%;
+    padding: 25px;
+    background-color: white;
+    margin: 30px;
+}
+#mainContentBox,#connect,
+#bio-pic {
+    float: left;
+}
+
+#mainBody {
+    width: 100%;
+    height:80%;
+}
+#bio-pic {
+    margin-right: 20px;
+    height: 180px;
+    width: 121px;
+}
+h2, h3 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    text-align: left;
+    color: #4aaaa5;
+    margin-bottom: 10;
+    margin-top: 10;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+#foot {
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height:5%;
+    background-color: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: thick;
+    text-align: center;
+    padding-top: 25px;
+}
+
+input[type=text] {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 2px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+input[type=reset] {
+    width: 40%;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+button.setLink {
+    width: 40%;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+input[type=reset] {
+    float: right;
+}
+/*input[type=submit]:hover {    */
+/*    background-color: #45a049;*/
+/*}                             */
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 2px 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    text-align: left;
+    resize: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+div.accomp {
+    height: 30%;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-bottom: 20px;
+    z-index: -1;
+}
+div.rightside {
+    float: right;
+}
+div.leftside {
+    float: left;
+}
+div.acompBanner {
+    width: 100%;
+    position: relative;
+    top: -60px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 20%;
+    font-size: 100%;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}

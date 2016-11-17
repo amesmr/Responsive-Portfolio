@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+    <HEAD>
+        <TITLE>Contact Me</TITLE>
+        <META NAME="Generator" CONTENT="SlickEdit">
+        <META NAME="Author" CONTENT="Matthew Ames">
+        <META NAME="Keywords" CONTENT="">
+        <META NAME="Description" CONTENT="">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </HEAD>
+    <BODY>
+        <div class="container">
+            <div id="headerrow">
+                <div id="myname">
+                    Matthew Ames
+                </div>
+                <div id="quickLinks">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="contact2.html">Contact(2)</a>
+                </div>
+            </div>
+            <div id="mainBody">
+                <section id="mainContentBox">
+                    <h2>Contact</h2>
+                    <hr>
+                    <a id="sendMail" href="#">attempting to modify this link to send mail after submit</a>
+
+                    <!-- see comments in function for which browsers are supported -->
+                    <form method="post">
+
+                    <!-- Below works in FireFox, IE, Edge, NOT Chrome!! -->
+                    <!--<form onsubmit="prepareEmail(to, subject, bodyText)" method="post">-->
+                        <label for="to">Email Address *</label><br>
+                        <input type="text" name="to" value="mattames@carolina.rr.com" disabled required><br>
+                        <label for="subject">Subject</label><br>
+                        <input type="text" name="subject" required><br>
+                        <label for="bodyText">Message *</label><br>
+<!--  the textarea needs to be on the left margin of this element so that it doesn't
+populate with spaces -->
+<textarea name="bodyText" maxlength="1000">
+</textarea>
+                        <br>
+                        <button class="setLink"  onclick="myFunction(to, subject, bodyText)">Submit</button>
+                        <input type="reset" value="Reset">
+                    </form>
+                </section>
+                <section id="Connect">
+                    <h3>Connect With Me</h3>
+                    <hr>
+                    <a href="https://github.com/amesmr"><img src="assets/images/github.jpg" height="42" width="42"></a>
+                    <a href="https://www.linkedin.com/in/matthew-ames-b4568b12a?trk=hp-identity-name"><img
+                        src="assets/images/linkedin_360.png" height="42" width="42"></a><a
+                        href="http://stackoverflow.com/users/7066340/matt-ames"><img src="assets/images/stack_360.jpg"
+                        height="42" width="42"></a>
+                </section>
+            </div>
+            <div id="foot">
+                copyright 2016 matthew ames
+            </div>
+        </div>
+        <script src="assets/js/PrepareEmail.js"></script>
+        <script>
+          var form = document.querySelector("form");
+          form.addEventListener("submit", function(event) {
+            console.log("Saving value", form.elements.value);
+            event.preventDefault();
+          });
+</script>   
+    </BODY>
+</HTML>
